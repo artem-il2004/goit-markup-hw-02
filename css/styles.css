@@ -1,22 +1,101 @@
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: Roboto, sans-serif;
     font-weight: 500;
     letter-spacing: 2%;
     font-size: 16px;
     line-height: 24px;
     color:#434455;
+    background-color: #FFFFFF;
 }
+.address-cl
+{
+    font-style: normal;
+}
+.address-list
+{
 
+}
+.logo
+{
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.logo-stud
+{
+    color: #2e2f42;
+    letter-spacing: 0.02em;
+
+}
+.logo-stud:focus,
+.logo-stud:hover
+{
+color: #404bbf;
+}
 .nav-list .link:active,
 .nav-list .link:hover {
-    color: #4D5AE5;
-}
 
-.address-list:hover,
-.address-list:focus {
-    color: #4D5AE5;
+ color: #4D5AE5;
+}
+.address-list > ul > li > .address-link:hover,
+.address-list > ul > li > .address-link:focus {
+    color: #404bbf;
+}
+.address-list > ul > li > .address-link
+{
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 .hero
 {
-    color: inherit;
+    background-color: #2e2f42;
+}
+.title
+{
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+.hero-button
+{
+    background-color: #4D5AE5;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+.hero-button:hover,.hero-button:focus
+{
+    color: #404BBF;
+    cursor: pointer;
+}
+
+.content-title
+{
+    font-family: Roboto,sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 0.02em;
+}
+.page-title
+{
+    font-family: Roboto,sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+}
+.page-content
+{
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.04em;
+
 }
