@@ -1,0 +1,22 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    letter-spacing: 2%;
+    font-size: 16px;
+    line-height: 24px;
+    color:#434455;
+}
+
+.nav-list .link:active,
+.nav-list .link:hover {
+    color: #4D5AE5;
+}
+
+.address-list:hover,
+.address-list:focus {
+    color: #4D5AE5;
+}
+.hero
+{
+    color: inherit;
+}
