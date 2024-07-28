@@ -40,8 +40,8 @@ color: #404bbf;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.nav-list .link:active,
-.nav-list .link:hover {
+header > nav > ul > .nav-list > .link:active,
+header > nav > ul > .nav-list > .link:hover {
 
  color: #404bbf;
 }
