@@ -41,7 +41,7 @@ color: #404bbf;
     color: #2e2f42;
 }
 .link:hover,
-.link:active    
+.link:active, .link:focus
 {
     color: #404bbf;
 }
